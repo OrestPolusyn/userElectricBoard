@@ -1,0 +1,15 @@
+import './assets/styles/reset.css'
+import './assets/styles/base.css'
+import './index.css'
+
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { RouterProvider } from 'react-router-dom'
+import { routes } from './routes/router'
+
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <RouterProvider router={routes} />
+  </React.StrictMode>
+)

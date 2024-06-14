@@ -1,0 +1,64 @@
+@font-face {
+  src: url('../fonts/ProximaNova-Regular.woff') format("woff2");
+  font-family: "ProximaNova";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url('../fonts/ProximaNova-Semibold.woff') format("woff2");
+  font-family: "ProximaNova";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url('../fonts/ProximaNova-Bold.woff') format("woff2");
+  font-family: "ProximaNova";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  src: url('../fonts/ProximaNova-Extrabold.woff') format("woff2");
+  font-family: "ProximaNova";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+:root {
+  --content-width: 1280px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  /* font-family */
+  --font-family: "ProximaNova", sans-serif;
+
+  /* color */
+  --color-white: #fff;
+  --color-black: #242424;
+  --color-blue-400: #4c78fe;
+  --color-blue-500: #182dcc;
+  --color-purple-400: #9999ff;
+  --color-purple-500: #535bf2;
+  --color-dark-400: #484765;
+  --color-green-400: #4eb738;
+  --color-red-400: #fe7365;
+
+  /* font-weight */
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
