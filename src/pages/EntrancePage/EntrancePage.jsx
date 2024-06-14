@@ -1,3 +1,3 @@
 export default function EntrancePage() {
-    return <h1>EntrancePage</h1>
+    return <h1>EntrancePages</h1>
 }
